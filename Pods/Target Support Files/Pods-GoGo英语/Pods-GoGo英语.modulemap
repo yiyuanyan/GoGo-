@@ -1,0 +1,6 @@
+framework module Pods_GoGo__ {
+  umbrella header "Pods-GoGo英语-umbrella.h"
+
+  export *
+  module * { export * }
+}
