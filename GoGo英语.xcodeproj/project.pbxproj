@@ -43,10 +43,15 @@
 		3511E7531F20B94F0096BFE7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E7521F20B94F0096BFE7 /* BaseNavigationController.m */; };
 		3511E7571F20BA820096BFE7 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E7561F20BA820096BFE7 /* BaseService.m */; };
 		3511E75D1F20BAF90096BFE7 /* GGT_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E75C1F20BAF90096BFE7 /* GGT_LoginViewController.m */; };
-		35BAFA591F21A33C00C7B3FC /* GGT_CalendarCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BAFA581F21A33C00C7B3FC /* GGT_CalendarCellModel.m */; };
-		35BAFA5C1F21A4D800C7B3FC /* GGT_CourseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BAFA5B1F21A4D800C7B3FC /* GGT_CourseCellModel.m */; };
-		35BAFA611F21A53300C7B3FC /* GGT_EvaReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BAFA5E1F21A53300C7B3FC /* GGT_EvaReportModel.m */; };
-		35BAFA621F21A53300C7B3FC /* GGT_ResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BAFA601F21A53300C7B3FC /* GGT_ResultModel.m */; };
+		352DCDDD1F21AD4100DEC866 /* GGT_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDDC1F21AD4100DEC866 /* GGT_HomeViewController.m */; };
+		352DCDE01F21E9A800DEC866 /* GGT_LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDDF1F21E9A800DEC866 /* GGT_LoginView.m */; };
+		352DCDE31F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDE21F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m */; };
+		352DCDE61F21EA2300DEC866 /* GGT_RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDE51F21EA2300DEC866 /* GGT_RegisterViewController.m */; };
+		35769B3A1F285D6200333858 /* GGT_RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B391F285D6200333858 /* GGT_RegisterView.m */; };
+		35769B3D1F286A3600333858 /* GGT_HomeLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B3C1F286A3600333858 /* GGT_HomeLeftView.m */; };
+		35769B451F286B1A00333858 /* GGT_ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B441F286B1A00333858 /* GGT_ScheduleViewController.m */; };
+		35769B4C1F28732700333858 /* GGT_MineSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */; };
+		35F4C8E81F2720C300FC95B7 /* GGT_ForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F4C8E71F2720C300FC95B7 /* GGT_ForgetPasswordView.m */; };
 		CB9412F3AB0EF8A9BC520018 /* Pods_GoGo__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938FBFD00DB12C0A82D0263 /* Pods_GoGo__.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,15 +148,25 @@
 		3511E7561F20BA820096BFE7 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		3511E75B1F20BAF90096BFE7 /* GGT_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_LoginViewController.h; sourceTree = "<group>"; };
 		3511E75C1F20BAF90096BFE7 /* GGT_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_LoginViewController.m; sourceTree = "<group>"; };
+		352DCDDB1F21AD4100DEC866 /* GGT_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_HomeViewController.h; sourceTree = "<group>"; };
+		352DCDDC1F21AD4100DEC866 /* GGT_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_HomeViewController.m; sourceTree = "<group>"; };
+		352DCDDE1F21E9A800DEC866 /* GGT_LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_LoginView.h; sourceTree = "<group>"; };
+		352DCDDF1F21E9A800DEC866 /* GGT_LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_LoginView.m; sourceTree = "<group>"; };
+		352DCDE11F21E9E000DEC866 /* GGT_ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		352DCDE21F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		352DCDE41F21EA2300DEC866 /* GGT_RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_RegisterViewController.h; sourceTree = "<group>"; };
+		352DCDE51F21EA2300DEC866 /* GGT_RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_RegisterViewController.m; sourceTree = "<group>"; };
+		35769B381F285D6200333858 /* GGT_RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_RegisterView.h; sourceTree = "<group>"; };
+		35769B391F285D6200333858 /* GGT_RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_RegisterView.m; sourceTree = "<group>"; };
+		35769B3B1F286A3600333858 /* GGT_HomeLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_HomeLeftView.h; sourceTree = "<group>"; };
+		35769B3C1F286A3600333858 /* GGT_HomeLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_HomeLeftView.m; sourceTree = "<group>"; };
+		35769B431F286B1A00333858 /* GGT_ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_ScheduleViewController.h; sourceTree = "<group>"; };
+		35769B441F286B1A00333858 /* GGT_ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_ScheduleViewController.m; sourceTree = "<group>"; };
+		35769B4A1F28732700333858 /* GGT_MineSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_MineSplitViewController.h; sourceTree = "<group>"; };
+		35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_MineSplitViewController.m; sourceTree = "<group>"; };
 		35BAFA521F21940900C7B3FC /* GGT_Request_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_Request_URL.h; sourceTree = "<group>"; };
-		35BAFA571F21A33C00C7B3FC /* GGT_CalendarCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_CalendarCellModel.h; sourceTree = "<group>"; };
-		35BAFA581F21A33C00C7B3FC /* GGT_CalendarCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_CalendarCellModel.m; sourceTree = "<group>"; };
-		35BAFA5A1F21A4D800C7B3FC /* GGT_CourseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_CourseCellModel.h; sourceTree = "<group>"; };
-		35BAFA5B1F21A4D800C7B3FC /* GGT_CourseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_CourseCellModel.m; sourceTree = "<group>"; };
-		35BAFA5D1F21A53300C7B3FC /* GGT_EvaReportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_EvaReportModel.h; sourceTree = "<group>"; };
-		35BAFA5E1F21A53300C7B3FC /* GGT_EvaReportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_EvaReportModel.m; sourceTree = "<group>"; };
-		35BAFA5F1F21A53300C7B3FC /* GGT_ResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_ResultModel.h; sourceTree = "<group>"; };
-		35BAFA601F21A53300C7B3FC /* GGT_ResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_ResultModel.m; sourceTree = "<group>"; };
+		35F4C8E61F2720C300FC95B7 /* GGT_ForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_ForgetPasswordView.h; sourceTree = "<group>"; };
+		35F4C8E71F2720C300FC95B7 /* GGT_ForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_ForgetPasswordView.m; sourceTree = "<group>"; };
 		E20829F44FF7F49DA7F29064 /* Pods-GoGo英语.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo英语.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGo英语/Pods-GoGo英语.debug.xcconfig"; sourceTree = "<group>"; };
 		F938FBFD00DB12C0A82D0263 /* Pods_GoGo__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGo__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -207,12 +222,14 @@
 		35027DA71F20747200087204 /* GoGo英语 */ = {
 			isa = PBXGroup;
 			children = (
+				35769B461F28730200333858 /* Mine */,
 				35027DDC1F207BBC00087204 /* CommonClass */,
 				35027DF71F207BF000087204 /* Extension */,
 				3511E74A1F20804D0096BFE7 /* BaseClass */,
 				3511E7541F20BA690096BFE7 /* Network */,
 				3511E7581F20BACA0096BFE7 /* LogAndRegister */,
-				35BAFA531F21A31900C7B3FC /* Schedule */,
+				35769B3E1F286AEB00333858 /* Schedule */,
+				352DCDD71F21AD2000DEC866 /* HomeClass */,
 				35027DAB1F20747200087204 /* AppDelegate.h */,
 				35027DAC1F20747200087204 /* AppDelegate.m */,
 				35027DAE1F20747200087204 /* ViewController.h */,
@@ -357,8 +374,12 @@
 		3511E7591F20BACA0096BFE7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				352DCDE11F21E9E000DEC866 /* GGT_ForgotPasswordViewController.h */,
+				352DCDE21F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m */,
 				3511E75B1F20BAF90096BFE7 /* GGT_LoginViewController.h */,
 				3511E75C1F20BAF90096BFE7 /* GGT_LoginViewController.m */,
+				352DCDE41F21EA2300DEC866 /* GGT_RegisterViewController.h */,
+				352DCDE51F21EA2300DEC866 /* GGT_RegisterViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -366,43 +387,119 @@
 		3511E75A1F20BACA0096BFE7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				352DCDDE1F21E9A800DEC866 /* GGT_LoginView.h */,
+				352DCDDF1F21E9A800DEC866 /* GGT_LoginView.m */,
+				35F4C8E61F2720C300FC95B7 /* GGT_ForgetPasswordView.h */,
+				35F4C8E71F2720C300FC95B7 /* GGT_ForgetPasswordView.m */,
+				35769B381F285D6200333858 /* GGT_RegisterView.h */,
+				35769B391F285D6200333858 /* GGT_RegisterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		35BAFA531F21A31900C7B3FC /* Schedule */ = {
+		352DCDD71F21AD2000DEC866 /* HomeClass */ = {
 			isa = PBXGroup;
 			children = (
-				35BAFA541F21A31900C7B3FC /* Controller */,
-				35BAFA551F21A31900C7B3FC /* Model */,
-				35BAFA561F21A31900C7B3FC /* View */,
+				352DCDD81F21AD2000DEC866 /* Controller */,
+				352DCDD91F21AD2000DEC866 /* Model */,
+				352DCDDA1F21AD2000DEC866 /* View */,
 			);
-			path = Schedule;
+			path = HomeClass;
 			sourceTree = "<group>";
 		};
-		35BAFA541F21A31900C7B3FC /* Controller */ = {
+		352DCDD81F21AD2000DEC866 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				352DCDDB1F21AD4100DEC866 /* GGT_HomeViewController.h */,
+				352DCDDC1F21AD4100DEC866 /* GGT_HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		35BAFA551F21A31900C7B3FC /* Model */ = {
+		352DCDD91F21AD2000DEC866 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				35BAFA571F21A33C00C7B3FC /* GGT_CalendarCellModel.h */,
-				35BAFA581F21A33C00C7B3FC /* GGT_CalendarCellModel.m */,
-				35BAFA5A1F21A4D800C7B3FC /* GGT_CourseCellModel.h */,
-				35BAFA5B1F21A4D800C7B3FC /* GGT_CourseCellModel.m */,
-				35BAFA5D1F21A53300C7B3FC /* GGT_EvaReportModel.h */,
-				35BAFA5E1F21A53300C7B3FC /* GGT_EvaReportModel.m */,
-				35BAFA5F1F21A53300C7B3FC /* GGT_ResultModel.h */,
-				35BAFA601F21A53300C7B3FC /* GGT_ResultModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		35BAFA561F21A31900C7B3FC /* View */ = {
+		352DCDDA1F21AD2000DEC866 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35769B3B1F286A3600333858 /* GGT_HomeLeftView.h */,
+				35769B3C1F286A3600333858 /* GGT_HomeLeftView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35769B3E1F286AEB00333858 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				35769B3F1F286AEB00333858 /* Controller */,
+				35769B401F286AEB00333858 /* Model */,
+				35769B411F286AEB00333858 /* View */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		35769B3F1F286AEB00333858 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35769B421F286AF800333858 /* 课程列表 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35769B401F286AEB00333858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35769B411F286AEB00333858 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35769B421F286AF800333858 /* 课程列表 */ = {
+			isa = PBXGroup;
+			children = (
+				35769B431F286B1A00333858 /* GGT_ScheduleViewController.h */,
+				35769B441F286B1A00333858 /* GGT_ScheduleViewController.m */,
+			);
+			name = "课程列表";
+			sourceTree = "<group>";
+		};
+		35769B461F28730200333858 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				35769B471F28730200333858 /* Controller */,
+				35769B481F28730200333858 /* Model */,
+				35769B491F28730200333858 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		35769B471F28730200333858 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35769B4A1F28732700333858 /* GGT_MineSplitViewController.h */,
+				35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35769B481F28730200333858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35769B491F28730200333858 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -613,16 +710,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				35027DB01F20747200087204 /* ViewController.m in Sources */,
-				35BAFA591F21A33C00C7B3FC /* GGT_CalendarCellModel.m in Sources */,
+				352DCDE61F21EA2300DEC866 /* GGT_RegisterViewController.m in Sources */,
 				3511E7501F20B9070096BFE7 /* BaseBackViewController.m in Sources */,
 				35027E181F207BF000087204 /* NSObject+XCMethodSwizzle.m in Sources */,
 				3511E75D1F20BAF90096BFE7 /* GGT_LoginViewController.m in Sources */,
-				35BAFA621F21A53300C7B3FC /* GGT_ResultModel.m in Sources */,
 				35027E231F207BF000087204 /* UIView+XCCornerRadius.m in Sources */,
+				35769B4C1F28732700333858 /* GGT_MineSplitViewController.m in Sources */,
 				35027E1D1F207BF000087204 /* UIButton+XCHelperBlock.m in Sources */,
-				35BAFA611F21A53300C7B3FC /* GGT_EvaReportModel.m in Sources */,
+				352DCDE31F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m in Sources */,
+				35769B3D1F286A3600333858 /* GGT_HomeLeftView.m in Sources */,
 				3511E7571F20BA820096BFE7 /* BaseService.m in Sources */,
 				35027E211F207BF000087204 /* UITableView+XCPlaceholderView.m in Sources */,
+				352DCDE01F21E9A800DEC866 /* GGT_LoginView.m in Sources */,
 				35027E191F207BF000087204 /* NSString+XCHelper.m in Sources */,
 				35027E171F207BF000087204 /* NSArray+SafeExtension.m in Sources */,
 				3511E7531F20B94F0096BFE7 /* BaseNavigationController.m in Sources */,
@@ -632,15 +731,18 @@
 				35027E221F207BF000087204 /* UIView+Layout.m in Sources */,
 				35027E1A1F207BF000087204 /* NSTimer+BlockSupport.m in Sources */,
 				35027DAD1F20747200087204 /* AppDelegate.m in Sources */,
+				35F4C8E81F2720C300FC95B7 /* GGT_ForgetPasswordView.m in Sources */,
 				35027E1E1F207BF000087204 /* UICollectionView+XCPlaceholderView.m in Sources */,
-				35BAFA5C1F21A4D800C7B3FC /* GGT_CourseCellModel.m in Sources */,
+				352DCDDD1F21AD4100DEC866 /* GGT_HomeViewController.m in Sources */,
 				35027E1B1F207BF000087204 /* UIAlertController+Color.m in Sources */,
 				35027E1C1F207BF000087204 /* UIButton+timer.m in Sources */,
 				35027E161F207BF000087204 /* FLAnimatedImageView+WebCache.m in Sources */,
+				35769B3A1F285D6200333858 /* GGT_RegisterView.m in Sources */,
 				35027DED1F207BBC00087204 /* GGT_Singleton.m in Sources */,
 				35027E201F207BF000087204 /* UILabel+XCHelper.m in Sources */,
 				35027DF31F207BBC00087204 /* NSDictionary+Log.m in Sources */,
 				35027DF01F207BBC00087204 /* XCNormalFooter.m in Sources */,
+				35769B451F286B1A00333858 /* GGT_ScheduleViewController.m in Sources */,
 				35027DF21F207BBC00087204 /* NSArray+Log.m in Sources */,
 				35027E241F207BF000087204 /* UIView+XCHelper.m in Sources */,
 				35027DAA1F20747200087204 /* main.m in Sources */,

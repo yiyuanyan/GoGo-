@@ -55,10 +55,10 @@
 
 
 // 模型
-#import "GGT_CalendarCellModel.h"
-#import "GGT_CourseCellModel.h"
-#import "GGT_ResultModel.h"
-#import "GGT_EvaReportModel.h"
+//#import "GGT_CalendarCellModel.h"
+//#import "GGT_CourseCellModel.h"
+//#import "GGT_ResultModel.h"
+//#import "GGT_EvaReportModel.h"
 
 
 static NSString * const xc_returnCode = @"result";
