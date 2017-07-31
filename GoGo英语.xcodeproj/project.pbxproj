@@ -43,6 +43,7 @@
 		3511E7531F20B94F0096BFE7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E7521F20B94F0096BFE7 /* BaseNavigationController.m */; };
 		3511E7571F20BA820096BFE7 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E7561F20BA820096BFE7 /* BaseService.m */; };
 		3511E75D1F20BAF90096BFE7 /* GGT_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511E75C1F20BAF90096BFE7 /* GGT_LoginViewController.m */; };
+		351297721F2EC40D0013BF06 /* GGT_CheckDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351297711F2EC40D0013BF06 /* GGT_CheckDeviceView.m */; };
 		352DCDDD1F21AD4100DEC866 /* GGT_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDDC1F21AD4100DEC866 /* GGT_HomeViewController.m */; };
 		352DCDE01F21E9A800DEC866 /* GGT_LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDDF1F21E9A800DEC866 /* GGT_LoginView.m */; };
 		352DCDE31F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DCDE21F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m */; };
@@ -51,6 +52,7 @@
 		35769B3D1F286A3600333858 /* GGT_HomeLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B3C1F286A3600333858 /* GGT_HomeLeftView.m */; };
 		35769B451F286B1A00333858 /* GGT_ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B441F286B1A00333858 /* GGT_ScheduleViewController.m */; };
 		35769B4C1F28732700333858 /* GGT_MineSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */; };
+		35DBA7C81F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DBA7C71F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.m */; };
 		35F4C8E81F2720C300FC95B7 /* GGT_ForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F4C8E71F2720C300FC95B7 /* GGT_ForgetPasswordView.m */; };
 		CB9412F3AB0EF8A9BC520018 /* Pods_GoGo__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938FBFD00DB12C0A82D0263 /* Pods_GoGo__.framework */; };
 /* End PBXBuildFile section */
@@ -148,6 +150,8 @@
 		3511E7561F20BA820096BFE7 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		3511E75B1F20BAF90096BFE7 /* GGT_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_LoginViewController.h; sourceTree = "<group>"; };
 		3511E75C1F20BAF90096BFE7 /* GGT_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_LoginViewController.m; sourceTree = "<group>"; };
+		351297701F2EC40D0013BF06 /* GGT_CheckDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_CheckDeviceView.h; sourceTree = "<group>"; };
+		351297711F2EC40D0013BF06 /* GGT_CheckDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_CheckDeviceView.m; sourceTree = "<group>"; };
 		352DCDDB1F21AD4100DEC866 /* GGT_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_HomeViewController.h; sourceTree = "<group>"; };
 		352DCDDC1F21AD4100DEC866 /* GGT_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_HomeViewController.m; sourceTree = "<group>"; };
 		352DCDDE1F21E9A800DEC866 /* GGT_LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_LoginView.h; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		35769B4A1F28732700333858 /* GGT_MineSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_MineSplitViewController.h; sourceTree = "<group>"; };
 		35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_MineSplitViewController.m; sourceTree = "<group>"; };
 		35BAFA521F21940900C7B3FC /* GGT_Request_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_Request_URL.h; sourceTree = "<group>"; };
+		35DBA7C61F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_CheckDevicePopViewController.h; sourceTree = "<group>"; };
+		35DBA7C71F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_CheckDevicePopViewController.m; sourceTree = "<group>"; };
 		35F4C8E61F2720C300FC95B7 /* GGT_ForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGT_ForgetPasswordView.h; sourceTree = "<group>"; };
 		35F4C8E71F2720C300FC95B7 /* GGT_ForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGT_ForgetPasswordView.m; sourceTree = "<group>"; };
 		E20829F44FF7F49DA7F29064 /* Pods-GoGo英语.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo英语.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGo英语/Pods-GoGo英语.debug.xcconfig"; sourceTree = "<group>"; };
@@ -488,6 +494,8 @@
 			children = (
 				35769B4A1F28732700333858 /* GGT_MineSplitViewController.h */,
 				35769B4B1F28732700333858 /* GGT_MineSplitViewController.m */,
+				35DBA7C61F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.h */,
+				35DBA7C71F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -502,6 +510,8 @@
 		35769B491F28730200333858 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				351297701F2EC40D0013BF06 /* GGT_CheckDeviceView.h */,
+				351297711F2EC40D0013BF06 /* GGT_CheckDeviceView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -713,12 +723,14 @@
 				352DCDE61F21EA2300DEC866 /* GGT_RegisterViewController.m in Sources */,
 				3511E7501F20B9070096BFE7 /* BaseBackViewController.m in Sources */,
 				35027E181F207BF000087204 /* NSObject+XCMethodSwizzle.m in Sources */,
+				351297721F2EC40D0013BF06 /* GGT_CheckDeviceView.m in Sources */,
 				3511E75D1F20BAF90096BFE7 /* GGT_LoginViewController.m in Sources */,
 				35027E231F207BF000087204 /* UIView+XCCornerRadius.m in Sources */,
 				35769B4C1F28732700333858 /* GGT_MineSplitViewController.m in Sources */,
 				35027E1D1F207BF000087204 /* UIButton+XCHelperBlock.m in Sources */,
 				352DCDE31F21E9E000DEC866 /* GGT_ForgotPasswordViewController.m in Sources */,
 				35769B3D1F286A3600333858 /* GGT_HomeLeftView.m in Sources */,
+				35DBA7C81F2B23DD007CA0FD /* GGT_CheckDevicePopViewController.m in Sources */,
 				3511E7571F20BA820096BFE7 /* BaseService.m in Sources */,
 				35027E211F207BF000087204 /* UITableView+XCPlaceholderView.m in Sources */,
 				352DCDE01F21E9A800DEC866 /* GGT_LoginView.m in Sources */,
