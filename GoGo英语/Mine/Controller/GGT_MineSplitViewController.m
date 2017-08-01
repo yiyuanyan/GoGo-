@@ -7,8 +7,9 @@
 //
 
 #import "GGT_MineSplitViewController.h"
-
-@interface GGT_MineSplitViewController ()
+#import "GGT_MineLeftViewController.h"
+#import "GGT_MineRightViewController.h"
+@interface GGT_MineSplitViewController ()<UISplitViewControllerDelegate>
 
 @end
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = UICOLOR_FROM_HEX(ColorFFFFFF);
+    GGT_MineLeftViewController *mineLeftVc = [GGT_MineLeftViewController new];
+    GGT_MineRightViewController *mineRightVc = [GGT_MineRightViewController new];
+    BaseNavigationController *detailNav = [[BaseNavigationController alloc] initWithRootViewController:mineRightVc];
+    self.viewControllers = @[mineLeftVc,detailNav];
+    //使用UISplitViewController前，第一步设置viewControllers数组，然后在设置其他属性
+    self.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {

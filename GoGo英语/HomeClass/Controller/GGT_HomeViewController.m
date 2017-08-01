@@ -136,6 +136,7 @@
                     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:vc];
                     nav.modalPresentationStyle = UIModalPresentationFormSheet;
                     nav.popoverPresentationController.delegate = self;
+                    //vc.preferredContentSize = CGSizeMake(100, 100);
                     [self presentViewController:nav animated:YES completion:nil];
                 }
                 break;
